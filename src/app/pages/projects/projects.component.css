@@ -1,0 +1,40 @@
+main{
+    margin-top: 4%;
+    margin-left : 25%;
+}
+
+.cards{
+    column-gap: 3em;
+}
+
+.card{
+    width: 24%;
+
+}
+
+.project_img{
+    width: 100%;
+    height: 15em !important;
+}
+
+.image_container img {
+    display: block;
+    width: 100%;
+    height: auto;
+    position: relative;
+    z-index: 0; /* Place l'image sous les coins */
+}
+
+.view_button{
+    width: 40%;
+    margin-left: 8em;
+    margin-top: 2em;
+    background-color: black; /* Couleur de fond noire */
+    color: var(--tertiary-color); /* Texte vert */
+    border: 2px solid var(--primary-color); /* Bordure noire */
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Animation fluide au survol */
+}

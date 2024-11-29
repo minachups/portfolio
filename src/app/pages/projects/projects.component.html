@@ -1,0 +1,18 @@
+<main>
+    <div class="cards flex row">
+        <div class="card flex column" *ngFor="let m of content">
+            <p class="ice sm" style="margin-bottom: 0.5em">{{m.title}}</p>
+            <div class="image_container">
+                <img class="project_img" src="{{m.img}}">
+            </div>
+
+            <button class="ice view_button">View Live</button>
+            <div style="height: 11em !important;" class="flex column">
+                <p class="neo-green bigs ls">{{m.title_description}}</p>
+                <p class="ice ms">{{m.description}}</p>
+                <p class="neo-gray ms ice">{{m.content}}</p>
+            </div>
+            <img src="assets/images/socle.png">
+        </div>
+    </div>
+</main>

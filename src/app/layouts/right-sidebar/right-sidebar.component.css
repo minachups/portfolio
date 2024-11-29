@@ -1,0 +1,46 @@
+.sidebar {
+    position: fixed;
+    top: 0%;
+    left: 0;
+    bottom: 0;
+    width: 30%;
+    height: 100%;
+    padding: 0 0 calc(72px + 25px) 0;
+    z-index: 1002;
+    margin-left: 20px;
+}
+
+p{
+    margin-top: 5px;
+    margin-bottom: 5px;
+}
+
+.me_img{
+    width: 30%;
+}
+
+.readytowork_container img{
+    width: 30%;
+}
+
+.reseau_container img{
+    cursor: pointer;
+}
+
+.quote_container{
+    margin-top: 200px;
+}
+
+.title_container{
+    margin-top: 0.4em;
+    margin-bottom: 2em;
+}
+
+.content_container{
+    margin-left: 3em;
+}
+
+
+
+
+

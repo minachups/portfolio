@@ -1,0 +1,123 @@
+/* You can add global styles to this file, and also import other style files */
+
+@import url('https://fonts.googleapis.com/css2?family=Big+Shoulders+Display:wght@100..900&family=Iceland&display=swap');
+
+body{
+    background-color: black;
+}
+
+p{
+    text-transform: uppercase;
+}
+
+p{
+    color:  var(--tertiary-color);
+}
+
+:root {
+
+
+
+    --primary-color: #4AE8A1;
+    --second-color: #E84A4A;
+    --tertiary-color: white;
+    --quaternary-color: #7A7A7A;
+
+
+    --font-size-large: 36px;
+    --font-size-medium: 16px;
+
+    --font-weight-regular: 400;
+    --font-weight-bold: 700;
+
+    --font-family-big: 'Big Shoulders Display', sans-serif;
+    --font-family-ice: 'Iceland', sans-serif;
+
+}
+
+.sm{
+    font-size: 0.8em;
+}
+
+.ms{
+    font-size: 1em;
+}
+
+.ls{
+    font-size: 1.3em;
+}
+
+.vl{
+    font-size: 2.2em;
+}
+
+.mfw{
+    font-weight: 400;
+}
+
+.lfw{
+    font-weight: 700;
+}
+
+.bfw{
+    font-weight: 800;
+}
+
+.neo-green{
+    color: var(--primary-color);
+}
+
+.neo-red{
+    color: var(--second-color);
+}
+
+.neo-gray{
+    color: var(--quaternary-color);
+}
+
+.bigs{
+    font-family: var(--font-family-big);
+}
+
+.ice{
+    font-family: var(--font-family-ice);
+}
+
+.flex{
+    display: flex;
+}
+
+.column{
+    flex-direction: column;
+}
+
+.row{
+    flex-direction: row;
+}
+
+.jc-fs{
+    justify-content: flex-start;
+}
+
+.jc-fe{
+    justify-content: flex-end;
+}
+
+.jc-c{
+    justify-content: center;
+}
+
+.jc-sb{
+    justify-content: space-between;
+}
+
+.jc-sa{
+    justify-content: space-around;
+}
+
+.ai-c{
+    align-items: center;
+}
+
+
+

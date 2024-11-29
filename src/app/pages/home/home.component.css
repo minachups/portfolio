@@ -1,0 +1,33 @@
+main{
+    margin-top: 4%;
+    margin-left : 25%;
+}
+
+.intro_card{
+    text-align: center;
+}
+
+.intro_card p{
+
+   margin-right: 10em;
+
+}
+
+.intro_card_img{
+    width: 100%;
+}
+
+.internship_card {
+    margin-right: 5em;
+}
+
+.internship_card div, .certificate_img{
+    border-left: 2px solid var(--primary-color);
+    padding-left: 8px;
+}
+
+.text-container{
+    margin-left: 2em;
+}
+
+

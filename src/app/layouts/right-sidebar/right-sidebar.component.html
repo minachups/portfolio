@@ -1,0 +1,36 @@
+<div class="sidebar">
+
+    <div class="title_container flex row">
+        <img src="/assets/icons/add.svg">
+        <p class="bigs ls" style="margin-left: 1em; margin-top: 0.4em">Portfolio</p>
+    </div>
+
+    <div class="content_container">
+        <img class="me_img" src="/assets/images/me.png" alt="Image de moi">
+        <div *ngFor="let m of content ;">
+            <p class="sm ice mfw">{{m.title}}</p>
+            <p class="neo-green bigs ls bfw">{{m.content}}</p>
+        </div>
+
+        <div class="readytowork_container">
+            <p class="ice sm mfw text_overlay">Availability</p>
+            <img src="/assets/images/rtw.png" alt="image de pret à travailler">
+        </div>
+
+        <p class="ice sm mfw">Professional connection</p>
+
+
+        <div class="reseau_container" class="flex row">
+
+            <img style="height: 2em;" class="connection_img" src="/assets/images/open_co.png">
+            <a href="https://www.linkedin.com/in/aminata-bensa%C3%AFd-8a1925333/"><img style="height: 2em; cursor: pointer;" class="connection_img" src="/assets/images/linkedin.png"></a>
+            <img style="height: 2em; cursor: pointer;" class="connection_img" src="/assets/images/github.png">
+        </div>
+
+        <div class="quote_container">
+            <p class="ice sm neo-red">a quote i appreciate :</p>
+            <p class="ice sm quote_text"> ”Without privacy,<br> there was no point in<br> being an individual.” –  <br>Jonathan Franzen.</p>
+        </div>
+    </div>
+
+</div>

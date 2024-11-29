@@ -1,0 +1,41 @@
+<footer>
+    <div class="footer flex row">
+        <div class="card_container flex row">
+            <div class="card" [routerLink]="['/pages/about']" [ngClass]="{'active-about': isActivePage('/pages/about')}">
+                <svg width="250" height="56" viewBox="0 0 289 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M228.989 0L227.796 2.75364L237.894 25.0264L257.191 25.5047L266.514 3.98449L264.707 0H228.989ZM228.013 0L226.772 2.86392L237.307 26.1009L257.69 26.606L267.538 3.87422L265.781 0H288.109V4.25387L269.77 4.25387L259.235 27.4908L269.77 50.7278H288.109V55.8845H266.288L268.054 51.9893L257.519 28.7523H236.449L225.914 51.9893L227.68 55.8845H0V0H228.013ZM265.303 55.8845H228.754L226.944 51.8911L236.942 29.8388L256.937 29.8388L267.024 52.0876L265.303 55.8845ZM288.109 5.34033V49.6414H270.352L260.265 27.3926L270.263 5.34033L288.109 5.34033Z" fill="#2B2627"/>
+                    <text class="bigs vl uppcase card_title" x="60" y="50%" fill="white" font-size="16" text-anchor="middle" dominant-baseline="middle">
+                        About
+                    </text>
+                </svg>
+                <p>get to know me a bit more.</p>
+            </div>
+
+            <div class="card" [routerLink]="['/pages/projects']" [ngClass]="{'active-projects': isActivePage('/pages/projects')}">
+                <svg width="250" height="56" viewBox="0 0 289 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M228.989 0L227.796 2.75364L237.894 25.0264L257.191 25.5047L266.514 3.98449L264.707 0H228.989ZM228.013 0L226.772 2.86392L237.307 26.1009L257.69 26.606L267.538 3.87422L265.781 0H288.109V4.25387L269.77 4.25387L259.235 27.4908L269.77 50.7278H288.109V55.8845H266.288L268.054 51.9893L257.519 28.7523H236.449L225.914 51.9893L227.68 55.8845H0V0H228.013ZM265.303 55.8845H228.754L226.944 51.8911L236.942 29.8388L256.937 29.8388L267.024 52.0876L265.303 55.8845ZM288.109 5.34033V49.6414H270.352L260.265 27.3926L270.263 5.34033L288.109 5.34033Z" fill="#2B2627"/>
+                    <text class="bigs vl uppcase card_title" x="85" y="50%" fill="white" font-size="16" text-anchor="middle" dominant-baseline="middle">
+                        Projects
+                    </text>
+                </svg>
+                <p>A gallery of all my projects.</p>
+            </div>
+
+            <div class="card" [routerLink]="['/pages/contact']" [ngClass]="{'active-contact': isActivePage('/pages/contact')}">
+                <svg width="250" height="56" viewBox="0 0 289 56" fill="none" xmlns="http://www.w3.org/2000/svg">
+                    <path opacity="0.7" fill-rule="evenodd" clip-rule="evenodd" d="M228.989 0L227.796 2.75364L237.894 25.0264L257.191 25.5047L266.514 3.98449L264.707 0H228.989ZM228.013 0L226.772 2.86392L237.307 26.1009L257.69 26.606L267.538 3.87422L265.781 0H288.109V4.25387L269.77 4.25387L259.235 27.4908L269.77 50.7278H288.109V55.8845H266.288L268.054 51.9893L257.519 28.7523H236.449L225.914 51.9893L227.68 55.8845H0V0H228.013ZM265.303 55.8845H228.754L226.944 51.8911L236.942 29.8388L256.937 29.8388L267.024 52.0876L265.303 55.8845ZM288.109 5.34033V49.6414H270.352L260.265 27.3926L270.263 5.34033L288.109 5.34033Z" fill="#2B2627"/>
+                    <text class="bigs vl uppcase card_title" x="100" y="50%" fill="white" font-size="16" text-anchor="middle" dominant-baseline="middle">
+                        Contact me
+                    </text>
+                </svg>
+                <p>get in touch.</p>
+            </div>
+
+        </div>
+
+        <div style="margin-left: 15em;">
+            <img class="footer_img" src="assets/icons/blabla.svg">
+        </div>
+
+    </div>
+</footer>

@@ -1,0 +1,87 @@
+main{
+    margin-top: 4%;
+    margin-left : 25%;
+}
+
+.card{
+    background-image: url("../../../assets/images/blur.png");
+    width: 40em;
+    border-radius: 15% /* Bordure */
+}
+
+input{
+    padding: 0.7em;
+}
+
+textarea{
+    padding: 0.7em;
+}
+
+input, textarea{
+    width: 100%;
+    margin-top: 0.8em;
+    background-color: #000000; /* Couleur de fond */
+    color: #ffffff; /* Couleur du texte */
+    border: 1px solid rgba(204, 204, 204, 0.61); /* Bordure */
+    border-radius: 5px;
+    font-size: 1.2em;
+}
+
+.interest_container{
+    margin-left: 9em;
+}
+
+.interest_container p{
+    font-size: 1em;
+}
+
+.interest_container{
+    border-left: 2px solid var(--primary-color);
+    padding-left: 8px;
+    margin-left: 8em;
+    display: table;
+}
+
+button{
+    width: 49%;
+    margin-top: 1em;
+}
+
+/* Style de base du premier bouton (send_button) */
+.send_button {
+    background-color: var(--primary-color); /* Couleur de fond verte */
+    color: black; /* Texte noir */
+    border: 2px solid var(--primary-color); /* Bordure verte */
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Animation fluide au survol */
+}
+
+/* Style de base du deuxième bouton (discard_button) */
+.discard_button {
+    margin-left: 0.8em;
+    background-color: black; /* Couleur de fond noire */
+    color: var(--primary-color); /* Texte vert */
+    border: 2px solid var(--primary-color); /* Bordure noire */
+    padding: 5px 20px;
+    font-size: 16px;
+    border-radius: 2px;
+    cursor: pointer;
+    transition: background-color 0.3s, color 0.3s; /* Animation fluide au survol */
+}
+
+/* Effet au survol pour send_button */
+.send_button:hover {
+    background-color: black; /* Fond noir */
+    color: var(--primary-color); /* Texte vert */
+    border-color: var(--primary-color); /* Bordure verte */
+}
+
+/* Effet au survol pour discard_button */
+.discard_button:hover {
+    background-color: var(--primary-color); /* Fond vert */
+    color: black; /* Texte noir */
+    border-color: black; /* Bordure noire */
+}

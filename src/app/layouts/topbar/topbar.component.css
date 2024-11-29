@@ -1,0 +1,33 @@
+header{
+    margin-left: 30%;
+    position: fixed;
+    top: 0;
+    right: 0;
+    left: 0;
+    z-index: 1002;
+
+}
+
+.gradient {
+    position: absolute; /* Pour placer l'élément */
+    top: 0;
+    right: 0;
+    width: 150px; /* Largeur du dégradé */
+    height: 150px; /* Hauteur du dégradé */
+    background: linear-gradient(242.06deg, #E84A4A 0%, rgba(0, 0, 0, 0) 33.64%); /* Dégradé */
+    z-index: 10; /* Assurez que c'est au-dessus des autres éléments */
+}
+
+.header_container{
+    justify-content: flex-end;
+}
+
+ul{
+    margin-top: 1.5em;
+    margin-right: 2em;
+    column-gap: 3em;
+}
+
+li{
+    font-family: var(--font-family-ice);
+}

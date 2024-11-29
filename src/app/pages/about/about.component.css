@@ -1,0 +1,57 @@
+main{
+    margin-top: 4%;
+    margin-left : 25%;
+}
+
+.skills_container{
+    border-left: 2px solid var(--primary-color);
+    padding-left: 8px;
+    margin-left: 1em;
+    margin-left: 8em;
+}
+
+.skills_container p{
+    margin-top: 0.7em;
+    margin-left: 1.5em;
+    font-size: 1em;
+}
+
+.first_div, .second_div, .third_div{
+    column-gap: 2em;
+    margin-top: 3em;
+}
+
+.second_div{
+    margin-left: 3.65em;
+}
+
+.third_div{
+    margin-left: 1.5em;
+}
+
+.first_div p{
+
+}
+
+.align-right {
+    display: inline-block;
+    text-align: right;
+    width: 100%;
+}
+
+.main_container {
+    position: relative; /* Nécessaire pour donner un contexte à la position absolue */
+    overflow: visible; /* Permet à l'image de dépasser les limites de la div parent */
+}
+
+.floating_img {
+    width: 90%;
+    position: absolute; /* Permet de positionner l'image en dehors de son flux naturel */
+    left: 15%; /* Centre l'image horizontalement */
+    transform: translateX(-50%); /* Ajuste pour que le centre de l'image corresponde à "left: 50%;" */
+    z-index: 10; /* Assure que l'image reste au-dessus des autres éléments */
+}
+
+.cat_image{
+    width: 100%;
+}

@@ -1,0 +1,56 @@
+footer{
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    left: 0;
+    z-index: 1002;
+    margin-left: 20%;
+    margin-bottom: 2em;
+}
+
+.card_title{
+    text-transform: uppercase;
+    font-weight: 743;
+}
+
+.card_container{
+    column-gap: 1em;
+    margin-left: 3em;
+}
+
+.card{
+    border-left: 5px solid #2B2627;
+    cursor: pointer;
+}
+
+.card:hover svg path {
+    fill: var(--primary-color); /* Change la couleur de fond lors du survol (par exemple, vert) */
+}
+
+
+.footer_img{
+    width: 7em;
+}
+
+.card p{
+    margin-top: 2em;
+    margin-left: 1.5em;
+    margin-bottom: 1.8em;
+    font-size: 0.8em;
+    font-family: var(--font-family-ice);
+    font-weight: 400;
+}
+
+.card.active-about svg path{
+    fill: var(--primary-color); /* Couleur pour la carte "About" */
+}
+
+.card.active-projects svg path{
+    fill: var(--primary-color); /* Couleur pour la carte "Projects" */
+}
+
+.card.active-contact svg path{
+    fill: var(--primary-color); /* Couleur pour la carte "Contact" */
+}
+
+

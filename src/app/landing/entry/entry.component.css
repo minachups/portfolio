@@ -1,0 +1,56 @@
+
+.center-start{
+    margin-top: 10%;
+}
+
+.entry-text{
+    font-size: 8em;
+    font-weight: 743;
+    letter-spacing: 0.1em;
+}
+
+.hello-text{
+    font-size: 1.7em;
+}
+
+.second-text .third-text{
+    font-size: 1.25em;
+}
+
+.salutation-container{
+    row-gap: 2em;
+}
+
+.gradient {
+    position: absolute; /* Pour placer l'élément */
+    top: 0;
+    right: 0;
+    width: 150px; /* Largeur du dégradé */
+    height: 150px; /* Hauteur du dégradé */
+    background: linear-gradient(242.06deg, #4AE8A1 0%, rgba(0, 0, 0, 0) 33.64%); /* Dégradé */
+    z-index: 10; /* Assurez que c'est au-dessus des autres éléments */
+}
+
+.warning-img{
+    width: 70%;
+    padding: 20px;
+    border: 1px solid var(--second-color);
+    border-radius: 80px;
+}
+
+.custom-button {
+    background: none; /* Pas de fond */
+    border: 2px solid var(--primary-color); /* Bordure verte */
+    color: var(--primary-color); /* Texte vert */
+    font-size: 18px; /* Texte plus gros */
+    padding: 10px 20px; /* Espacement interne pour un bouton esthétique */
+    border-radius: 4px; /* Coins légèrement arrondis (optionnel) */
+    cursor: pointer; /* Change le curseur en main */
+    transition: 0.3s; /* Animation fluide lors des interactions */
+}
+
+.custom-button:hover {
+    background: var(--primary-color); /* Fond vert au survol */
+    color: white; /* Texte blanc au survol */
+}
+
