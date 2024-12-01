@@ -9,5 +9,13 @@
 <body><!--nghm-->
   <app-root _nghost-ng-c1933515739 ng-version="19.0.1" ngh="1" ng-server-context="ssg"><router-outlet _ngcontent-ng-c1933515739></router-outlet><app-intro _nghost-ng-c3402708750 ngh="0"><div _ngcontent-ng-c3402708750 class="gradient"></div><div _ngcontent-ng-c3402708750 class="center-start flex jc-c row ai-c"><div _ngcontent-ng-c3402708750 class="entry-container"><a _ngcontent-ng-c3402708750 href="/entry" class="neo-green bigs uppcase entry-text"> Entry!</a></div><div _ngcontent-ng-c3402708750 class="salutation-container flex column"><p _ngcontent-ng-c3402708750 class="hello-text ice">Hello, Madam, Sir</p><p _ngcontent-ng-c3402708750 class="second-text ice">You are about to live an interactive experience through my <br _ngcontent-ng-c3402708750> portfolio.</p><p _ngcontent-ng-c3402708750 class="third-text ice">Above all, be confortable :) </p></div></div></app-intro><!----></app-root>
 <link rel="modulepreload" href="chunk-YB4BGUJM.js"><link rel="modulepreload" href="chunk-B4CS25VR.js"><script src="polyfills-FFHMD2TL.js" type="module"></script><script src="main-VFKFMQ2X.js" type="module"></script>
-
+<script>
+  const redirectTo = window.location.pathname;
+  const baseUrl = '/portfolio'; // Remplacez par le chemin de base de votre projet sur GitHub Pages.
+  if (redirectTo && redirectTo.startsWith(baseUrl)) {
+    window.location.href = baseUrl + '/#' + redirectTo.substring(baseUrl.length);
+  } else {
+    window.location.href = baseUrl;
+  }
+</script>
 <script id="ng-state" type="application/json">{"__nghData__":[{},{"c":{"0":[{"i":"c3402708750","r":1}]}}]}</script></body></html>
